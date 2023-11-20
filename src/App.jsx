@@ -9,10 +9,11 @@ function App() {
   return (
     <>
       <div className="container">
-        <CardDynamic link = "klikněte" heading = "Ahoj" description = "Aktuality"></CardDynamic>
-        <CardDynamic link = "na" heading = "Vítej" description = "Maturita"></CardDynamic>
-        <CardDynamic link = "tento" heading = "na" description = "Suplování"></CardDynamic>
-        <CardDynamic link = "odkaz" heading = "SSPŠ" description = "Skripta"></CardDynamic>
+        <Card></Card>
+        <CardDynamic link="klikněte" heading="Ahoj" description="Aktuality"></CardDynamic>
+        <CardDynamic link="na" heading="Vítej" description="Maturita"></CardDynamic>
+        <CardDynamic link="tento" heading="na" description="Suplování"></CardDynamic>
+        <CardDynamic link="odkaz" heading="SSPŠ" description="Skripta"></CardDynamic>
       </div>
     </>
   )
